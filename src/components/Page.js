@@ -12,7 +12,7 @@ const AppPage = (props) => {
         );
 }
 
-export default withModel(AppPage, { populatePropsOnInit: true });
+export default withModel(AppPage, { injectPropsOnInit: true });
 
 MapTo("we-retail-journal/components/navigation")(Navigation);
 MapTo('we-retail-journal/react/components/structure/page')(AppPage);

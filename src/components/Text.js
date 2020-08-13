@@ -21,4 +21,4 @@ MapTo('we-retail-journal/components/text')(Text, TextEditConfig);
 export default Text;
 
 
-export const AEMText =  withModel(Text, { populatePropsOnInit: true });
+export const AEMText =  withModel(Text, { injectPropsOnInit: true });

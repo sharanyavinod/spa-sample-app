@@ -4,7 +4,7 @@ import { ModelManager } from "@adobe/cq-spa-page-model-manager";
 import { CustomModelClient } from '../server/CustomModelClient';
 
 import Page from './Page';
-import Text, {AEMText} from './Text';
+import { AEMText } from './Text';
 import SampleContent from './SampleContent';
 
 
@@ -33,7 +33,7 @@ const AEMPage = () => {
             <h4>Finally, a cherry picked component again from AEM</h4>
             <AEMText
               pagePath='/content/we-retail-journal/react/en/blog/aboutus/'
-              componentPath='/root/responsivegrid/paragraph_2' />
+              itemPath='/root/responsivegrid/paragraph_2' />
             <p>Footer</p>
         </main>
     ) : <div>Loading aem page</div>;
