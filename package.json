@@ -2,6 +2,10 @@
   "name": "spa-sample-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
     "@adobe/cq-react-editable-components": "file:../../code/SPA/spa-react-editable-components",
     "@adobe/cq-spa-component-mapping": "file:../../code/SPA/spa-component-mapping",

@@ -3,6 +3,7 @@ import { ModelManager } from "@adobe/cq-spa-page-model-manager";
 
 import { CustomModelClient } from '../server/CustomModelClient';
 
+import { AEMTitle } from './Title';
 import SampleContent from './SampleContent';
 
 
@@ -20,7 +21,14 @@ const AEMPage = () => {
 
     return aemModel? (
         <main style={{margin: '10px'}}>
+            <h2>Sample AEM + SPA</h2>
+            <AEMTitle
+              pagePath='/content/we-retail-journal/react/en/blog/aboutus'
+              itemPath='root/responsivegrid/title' />
+
             <SampleContent />
+
+            <p>Footer</p>
         </main>
     ) : <div>Loading aem page</div>;
 }
