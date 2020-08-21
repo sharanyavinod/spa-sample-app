@@ -2,7 +2,6 @@ import React from 'react';
 
 const SampleContent = () => (
     <div style={{backgroundColor: '#aaa', margin: '10px', padding: '10px'}}>
-        <h4>Now, back to our SPA</h4>
         <p>
             Now it is such a bizarrely improbable coincidence that anything so mind-bogglingly useful could have evolved purely by chance that some thinkers have chosen to see it as the final and clinching proof of the non-existence of God.
             The argument goes something like this: "I refuse to prove that I exist,'" says God, "for proof denies faith, and without faith I am nothing."
