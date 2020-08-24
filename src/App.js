@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import AEMPage from './components/AEMPage';
+import BasicPage from './components/BasicPage';
 
 const App = () => {
   return (
     <div className="App">
-      <AEMPage />
+      <BasicPage />
     </div>
   );
 }
