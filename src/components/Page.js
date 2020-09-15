@@ -1,8 +1,7 @@
 import React from 'react';
-import { Page, MapTo } from '@adobe/cq-react-editable-components';
+import { Page, MapTo, withModel } from '@adobe/aem-react-editable-components';
 import Text, { TextEditConfig } from './Text';
 import Navigation from './Navigation';
-import { withModel } from '@adobe/cq-react-editable-components';
 
 const AppPage = (props) => {
     return (

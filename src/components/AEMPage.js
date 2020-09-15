@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ModelManager } from "@adobe/cq-spa-page-model-manager";
+import { ModelManager } from "@adobe/aem-spa-page-model-manager";
 
 import { CustomModelClient } from '../server/CustomModelClient';
 
@@ -12,14 +12,12 @@ const AEMPage = () => {
   const [aemModel, setAemModel] = useState();
   useEffect(() => {
     const modelClient = new CustomModelClient('http://localhost:4502');
-    // setTimeout(() => {
       ModelManager.initialize({
         modelClient,
         path: '/content/we-retail-journal/react/en'
       }).then((model) => {
           setAemModel(model);
       });
-    // }, 5000);
   }, []);
 
     return aemModel? (

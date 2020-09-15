@@ -1,4 +1,4 @@
-import { ModelClient } from '@adobe/cq-spa-page-model-manager';
+import { ModelClient } from '@adobe/aem-spa-page-model-manager';
 
 const FETCH_CONFIG = {
     headers: {
@@ -25,7 +25,6 @@ export class CustomModelClient extends ModelClient {
 
         // Either the API host has been provided or we make an absolute request relative to the current host
         const url = `${this._apiHost}${modelPath}`;
-
         return fetch(url, FETCH_CONFIG).then(function(response) {
             if (response.status >= 200 && response.status < 300) {
                 return response.json();

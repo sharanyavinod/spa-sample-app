@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adobe/cq-react-editable-components": "file:../../code/SPA/spa-react-editable-components",
-    "@adobe/cq-spa-component-mapping": "file:../../code/SPA/spa-component-mapping",
-    "@adobe/cq-spa-page-model-manager": "file:../../code/SPA/spa-page-model-manager",
+    "@adobe/aem-react-editable-components": "^1.0.4",
+    "@adobe/aem-spa-component-mapping": "^1.0.5",
+    "@adobe/aem-spa-page-model-manager": "^1.0.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
