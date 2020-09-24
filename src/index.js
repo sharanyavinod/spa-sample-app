@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { ModelManager } from "@adobe/aem-spa-page-model-manager";
+
+import { CustomModelClient } from './server/CustomModelClient';
+
+const modelClient = new CustomModelClient('http://localhost:4502');
+ModelManager.initializeAsync({
+    modelClient,
+    path: "/content/we-retail-journal/react/en.model.json"
+});
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

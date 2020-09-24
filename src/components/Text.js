@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from '../styles/common.css';
-import { MapTo, withModel } from '@adobe/aem-react-editable-components';
+import { withModel } from '@adobe/aem-react-editable-components';
 
 export const TextEditConfig = {
     emptyLabel: 'Text',
@@ -15,8 +15,6 @@ const Text = ({ cqPath, richText, text }) => {
     );
     return richText ? richTextContent() : (<div className={classes.aem_text}>{text}</div>);
 }
-
-MapTo('we-retail-journal/components/text')(Text, TextEditConfig);
 
 export default Text;
 

@@ -27,12 +27,17 @@ export class CustomModelClient extends ModelClient {
         const url = `${this._apiHost}${modelPath}`;
         return fetch(url, FETCH_CONFIG).then(function(response) {
             if (response.status >= 200 && response.status < 300) {
-                return response.json();
+            //   var promise = new Promise(function(resolve, reject) {
+            //    window.setTimeout(function() {
+            //      resolve(response.json());
+            //    }, 5000);
+            //  });
+            //  return promise;
+             return response.json();
             } else {
                 const error = new Error('while fetching the model for url: ' + url, response.statusText || response.status);
                 error.response = response;
-
-                return Promise.reject(error);
+                // return Promise.reject(error);
             }
         });
     }
