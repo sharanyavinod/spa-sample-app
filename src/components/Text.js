@@ -7,7 +7,7 @@ export const TextEditConfig = {
     isEmpty: function(props) {
         return !props || !props.text || props.text.trim().length < 1;
     },
-    aemResourceType: "we-retail-journal/components/text"
+    resourceType: "we-retail-journal/components/text"
 };
 
 const Text = ({ cqPath, richText, text }) => {
