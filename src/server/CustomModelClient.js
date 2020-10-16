@@ -37,7 +37,7 @@ export class CustomModelClient extends ModelClient {
             } else {
                 const error = new Error('while fetching the model for url: ' + url, response.statusText || response.status);
                 error.response = response;
-                // return Promise.reject(error);
+                return Promise.reject(error);
             }
         });
     }
