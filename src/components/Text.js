@@ -19,6 +19,4 @@ const Text = ({ cqPath, richText, text }) => {
 
 export default Text;
 
-const { injectPropsOnInit = true, forceReload = false } = {};
-
-export const AEMText = withMappable(Text, TextEditConfig, {injectPropsOnInit, forceReload});
+export const AEMText = withMappable(Text, TextEditConfig);
