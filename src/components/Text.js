@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from '../styles/common.css';
-import { WrapAsAEMEditableComponent } from '@adobe/aem-react-editable-components';
+import {withMappable} from '@adobe/aem-react-editable-components';
 
 export const TextEditConfig = {
     emptyLabel: 'Text',
@@ -19,4 +19,4 @@ const Text = ({ cqPath, richText, text }) => {
 
 export default Text;
 
-export const AEMText = WrapAsAEMEditableComponent(Text, TextEditConfig);
+export const AEMText = withMappable(Text, TextEditConfig);
