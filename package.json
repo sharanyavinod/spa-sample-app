@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adobe/aem-react-editable-components": "^1.0.6",
-    "@adobe/aem-spa-component-mapping": "^1.0.7",
-    "@adobe/aem-spa-page-model-manager": "^1.2.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -23,5 +20,10 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": []
+  "browserslist": [],
+  "devDependencies": {
+    "@adobe/aem-react-editable-components": "^1.1.0",
+    "@adobe/aem-spa-component-mapping": "^1.0.7",
+    "@adobe/aem-spa-page-model-manager": "^1.2.3"
+  }
 }
