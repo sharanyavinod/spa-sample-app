@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../styles/common.css';
+import '../styles/common.css';
 import {withMappable} from '@adobe/aem-react-editable-components';
 
 export const TextEditConfig = {
@@ -12,9 +12,9 @@ export const TextEditConfig = {
 
 const Text = ({ cqPath, richText, text }) => {
     const richTextContent = () => (
-        <div className={classes.aem_text} id={cqPath.substr(cqPath.lastIndexOf('/') + 1)} data-rte-editelement dangerouslySetInnerHTML={{__html: text}}/>
+        <div className="aem_text" id={cqPath.substr(cqPath.lastIndexOf('/') + 1)} data-rte-editelement dangerouslySetInnerHTML={{__html: text}}/>
     );
-    return richText ? richTextContent() : (<div className={classes.aem_text}>{text}</div>);
+    return richText ? richTextContent() : (<div className="aem_text">{text}</div>);
 };
 
 export default Text;

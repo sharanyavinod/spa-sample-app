@@ -1,9 +1,9 @@
-import { Page, MapTo, withModel } from '@adobe/aem-react-editable-components';
+import { Page, MapTo, withMappable } from '@adobe/aem-react-editable-components';
 import Text, { TextEditConfig } from './Text';
 import Navigation from './Navigation';
 
 
-export default withModel(Page, { injectPropsOnInit: true });
+export default withMappable(Page);
 
 MapTo("we-retail-journal/components/navigation")(Navigation);
 MapTo('we-retail-journal/components/text')(Text, TextEditConfig);
