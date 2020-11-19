@@ -14,6 +14,9 @@ const VirtualPage = () => (
         <AEMText
          pagePath='/content/we-retail-journal/react/en/blog/aboutus'
          itemPath='/root/responsivegrid/paragraph_28' />
+         <AEMText
+          pagePath='/content/we-retail-journal/react/en/blog'
+          itemPath='/root/responsivegrid/paragraph_28' />
     </main>
 );
 

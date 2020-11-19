@@ -11,9 +11,10 @@ const AEMLeaf = () => (
         <AEMText
           pagePath='/content/we-retail-journal/react/en/blog'
           itemPath='/root/responsivegrid/article_header' />
-
+          <AEMText
+            pagePath='/content/we-retail-journal/react/en/blog/aboutus'
+            itemPath='/root/responsivegrid/paragraph_2' />
         <SampleContent2 />
-
         <h4>AEM Leaf Component</h4>
         <AEMText
           pagePath='/content/we-retail-journal/react/en/blog'
