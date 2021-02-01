@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "http://localhost:5000/static/css/main.81e8d73e.chunk.css",
-    "main.js": "http://localhost:5000/static/js/main.b2f8a426.chunk.js",
-    "main.js.map": "http://localhost:5000/static/js/main.b2f8a426.chunk.js.map",
-    "runtime-main.js": "http://localhost:5000/static/js/runtime-main.7838f168.js",
-    "runtime-main.js.map": "http://localhost:5000/static/js/runtime-main.7838f168.js.map",
-    "static/js/2.0602e4c8.chunk.js": "http://localhost:5000/static/js/2.0602e4c8.chunk.js",
-    "static/js/2.0602e4c8.chunk.js.map": "http://localhost:5000/static/js/2.0602e4c8.chunk.js.map",
-    "index.html": "http://localhost:5000/index.html",
-    "precache-manifest.ff92684531f14a4e8902453af4f5b24a.js": "http://localhost:5000/precache-manifest.ff92684531f14a4e8902453af4f5b24a.js",
-    "service-worker.js": "http://localhost:5000/service-worker.js",
-    "static/css/main.81e8d73e.chunk.css.map": "http://localhost:5000/static/css/main.81e8d73e.chunk.css.map",
-    "static/js/2.0602e4c8.chunk.js.LICENSE.txt": "http://localhost:5000/static/js/2.0602e4c8.chunk.js.LICENSE.txt",
-    "static/js/main.b2f8a426.chunk.js.LICENSE.txt": "http://localhost:5000/static/js/main.b2f8a426.chunk.js.LICENSE.txt"
+    "main.css": "https://sharanyavinod.github.io/spa-sample-app/static/css/main.81e8d73e.chunk.css",
+    "main.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.d7c53be3.chunk.js",
+    "main.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.d7c53be3.chunk.js.map",
+    "runtime-main.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/runtime-main.312cdb73.js",
+    "runtime-main.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/runtime-main.312cdb73.js.map",
+    "static/js/2.0602e4c8.chunk.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js",
+    "static/js/2.0602e4c8.chunk.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js.map",
+    "index.html": "https://sharanyavinod.github.io/spa-sample-app/index.html",
+    "precache-manifest.388d5d010c11d089bce0c452dd1c388e.js": "https://sharanyavinod.github.io/spa-sample-app/precache-manifest.388d5d010c11d089bce0c452dd1c388e.js",
+    "service-worker.js": "https://sharanyavinod.github.io/spa-sample-app/service-worker.js",
+    "static/css/main.81e8d73e.chunk.css.map": "https://sharanyavinod.github.io/spa-sample-app/static/css/main.81e8d73e.chunk.css.map",
+    "static/js/2.0602e4c8.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js.LICENSE.txt",
+    "static/js/main.d7c53be3.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.d7c53be3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7838f168.js",
+    "static/js/runtime-main.312cdb73.js",
     "static/js/2.0602e4c8.chunk.js",
     "static/css/main.81e8d73e.chunk.css",
-    "static/js/main.b2f8a426.chunk.js"
+    "static/js/main.d7c53be3.chunk.js"
   ]
 }
