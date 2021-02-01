@@ -1,0 +1,27 @@
+/*! ./ComponentMapping */
+
+/*! export ComponentMapping [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/ComponentMapping.ts .ComponentMapping */
+
+/*! export ComponentMapping [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export MapTo [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/ComponentMapping.ts .MapTo */
+
+/*! export MapTo [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! namespace exports */
+
+/*! other exports [not provided] [maybe used in main (runtime-defined)] */
+
+/*! other exports [not provided] [no usage info] */
+
+/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+
+/*!**********************!*\
+          !*** ./src/types.ts ***!
+          \**********************/
+
+/*!*********************************!*\
+          !*** ./src/ComponentMapping.ts ***!
+          \*********************************/
