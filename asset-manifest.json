@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "https://sharanyavinod.github.io/spa-sample-app/static/css/main.81e8d73e.chunk.css",
-    "main.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.5a7e2ff3.chunk.js",
-    "main.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.5a7e2ff3.chunk.js.map",
+    "main.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.2664c764.chunk.js",
+    "main.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.2664c764.chunk.js.map",
     "runtime-main.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/runtime-main.312cdb73.js",
     "runtime-main.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/runtime-main.312cdb73.js.map",
     "static/js/2.0602e4c8.chunk.js": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js",
     "static/js/2.0602e4c8.chunk.js.map": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js.map",
     "index.html": "https://sharanyavinod.github.io/spa-sample-app/index.html",
-    "precache-manifest.9af236cb6669a5d9af48286cb333c422.js": "https://sharanyavinod.github.io/spa-sample-app/precache-manifest.9af236cb6669a5d9af48286cb333c422.js",
+    "precache-manifest.e38c9a5fd8b2108395e5f65869142725.js": "https://sharanyavinod.github.io/spa-sample-app/precache-manifest.e38c9a5fd8b2108395e5f65869142725.js",
     "service-worker.js": "https://sharanyavinod.github.io/spa-sample-app/service-worker.js",
     "static/css/main.81e8d73e.chunk.css.map": "https://sharanyavinod.github.io/spa-sample-app/static/css/main.81e8d73e.chunk.css.map",
     "static/js/2.0602e4c8.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js.LICENSE.txt",
-    "static/js/main.5a7e2ff3.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.5a7e2ff3.chunk.js.LICENSE.txt"
+    "static/js/main.2664c764.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.2664c764.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.312cdb73.js",
     "static/js/2.0602e4c8.chunk.js",
     "static/css/main.81e8d73e.chunk.css",
-    "static/js/main.5a7e2ff3.chunk.js"
+    "static/js/main.2664c764.chunk.js"
   ]
 }

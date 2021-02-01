@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70738eb67bf132c759a862b48138cf0a",
+    "revision": "e6f786f692c86a583c4d0a20cbf2ba4c",
     "url": "https://sharanyavinod.github.io/spa-sample-app/index.html"
   },
   {
-    "revision": "287c705f0bb6639c524a",
+    "revision": "0abc6a93316bc91620cc",
     "url": "https://sharanyavinod.github.io/spa-sample-app/static/css/main.81e8d73e.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sharanyavinod.github.io/spa-sample-app/static/js/2.0602e4c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "287c705f0bb6639c524a",
-    "url": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.5a7e2ff3.chunk.js"
+    "revision": "0abc6a93316bc91620cc",
+    "url": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.2664c764.chunk.js"
   },
   {
     "revision": "99d26ea8524da057c52766e0a91cbad3",
-    "url": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.5a7e2ff3.chunk.js.LICENSE.txt"
+    "url": "https://sharanyavinod.github.io/spa-sample-app/static/js/main.2664c764.chunk.js.LICENSE.txt"
   },
   {
     "revision": "9bdf517386419481a86b",
