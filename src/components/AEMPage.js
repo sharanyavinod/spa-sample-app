@@ -8,8 +8,8 @@ const AEMPage = () => (
         <SampleContent2 />
 
         <h4>AEM Page</h4>
-        <Page pagePath='/content/we-retail-journal/react/en/blog' />
-
+        <Page
+          pagePath="/content/wknd-spa-react/us/en/home" />
     </main>
 );
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/common.css';
-import {withMappable} from '@adobe/aem-react-editable-components';
+import { withMappable } from '@adobe/aem-react-editable-components';
 
 export const TextEditConfig = {
     emptyLabel: 'Text',
     isEmpty: function(props) {
         return !props || !props.text || props.text.trim().length < 1;
     },
-    resourceType: "we-retail-journal/components/text"
+    resourceType: "wknd-spa-react/components/text"
 };
 
 const Text = ({ cqPath, richText, text }) => {

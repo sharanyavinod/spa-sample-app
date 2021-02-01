@@ -11,8 +11,7 @@ import { CustomModelClient } from './server/CustomModelClient';
 
 const modelClient = new CustomModelClient(process.env.REACT_APP_AEM_HOST);
 ModelManager.initializeAsync({
-    modelClient,
-    path: "/content/we-retail-journal/react/en.model.json"
+    modelClient
 });
 
 ReactDOM.render(

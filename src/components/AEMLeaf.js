@@ -1,25 +1,21 @@
 import React from 'react';
 import { AEMText } from './Text';
+import ResponsiveGrid from './ResponsiveGrid';
 import { SampleContent1, SampleContent2 } from './SampleContent';
+import Page from './Page';
 
 const AEMLeaf = () => (
     <main style={{margin: '10px'}}>
-        <h2>SPA + AEM Leaf Component</h2>
+        <h2 className="test">SPA + AEM Leaf Component</h2>
         <SampleContent1 />
 
         <h4>AEM Leaf Component</h4>
-        <AEMText
-          pagePath='/content/we-retail-journal/react/en/blog'
-          itemPath='/root/responsivegrid/article_header' />
-          <AEMText
-            pagePath='/content/we-retail-journal/react/en/blog/aboutus'
-            itemPath='/root/responsivegrid/paragraph_2' />
+        <ResponsiveGrid
+          pagePath='/content/wknd-spa-react/us/en/home'
+          itemPath='root/responsivegrid' />
         <SampleContent2 />
         <h4>AEM Leaf Component</h4>
-        <AEMText
-          pagePath='/content/we-retail-journal/react/en/blog'
-          itemPath='/root/responsivegrid/paragraph_1' />
-
+        <Page pagePath='/content/wknd-spa-react/us/en/home' />
     </main>
 );
 

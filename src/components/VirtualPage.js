@@ -9,14 +9,8 @@ const VirtualPage = () => (
 
         <h4>AEM Virtual Components</h4>
         <AEMText
-         pagePath='/content/we-retail-journal/react/en/blog/aboutus'
-         itemPath='/root/responsivegrid/paragraph_25' />
-        <AEMText
-         pagePath='/content/we-retail-journal/react/en/blog/aboutus'
-         itemPath='/root/responsivegrid/paragraph_28' />
-         <AEMText
-          pagePath='/content/we-retail-journal/react/en/blog'
-          itemPath='/root/responsivegrid/paragraph_28' />
+         pagePath='/content/wknd-spa-react/us/en/home/page-2'
+         itemPath='/root/responsivegrid/paragraph_30' />
     </main>
 );
 
